@@ -28,15 +28,12 @@ public class ResourceExceptionHandler {
 
 	
 	@ExceptionHandler(DataIntegrityViolationException.class)
-	public ResponseEntity<StandardError> dataIntegrityViolationException(DataIntegrityViolationException ex,
-			HttpServletRequest request){
-				
-		
-		StandardError error = new StandardError(System.currentTimeMillis(), HttpStatus.BAD_REQUEST.value(),
-				"Violação de Dados!", ex.getMessage(), request.getRequestURI());
-		
+	public ResponseEntity<StandardError> dataIntegrityViolationException(DataIntegrityViolationException ex, HttpServletRequest request) {
+
+		StandardError error = new StandardError(System.currentTimeMillis(), HttpStatus.BAD_REQUEST.value(),"Violação de dados", ex.getMessage(), request.getRequestURI());
+
 		return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(error);
-			}
+	}
 	
 	@ExceptionHandler(MethodArgumentNotValidException.class)
 	public ResponseEntity<StandardError> ValidationError(MethodArgumentNotValidException ex,
