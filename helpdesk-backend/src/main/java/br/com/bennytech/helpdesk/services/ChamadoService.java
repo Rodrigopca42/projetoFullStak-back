@@ -1,5 +1,6 @@
 package br.com.bennytech.helpdesk.services;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
@@ -41,6 +42,13 @@ public class ChamadoService {
 	public Chamado create(@Valid ChamadoDTO objDTO) {
 		return repository.save(newChamado(objDTO));
 	}
+	
+	public Chamado update(Integer id, @Valid ChamadoDTO objDTO) {
+		objDTO.setId(id);
+		Chamado oldObj = findById(id);
+		oldObj = newChamado(objDTO);
+		return repository.save(oldObj);
+	}
 
 	private Chamado newChamado(ChamadoDTO obj) {
 		Tecnico tecnico = tecnicoService.findById(obj.getTecnico());
@@ -51,6 +59,10 @@ public class ChamadoService {
 			chamado.setId(obj.getId());
 		}
 		
+		if(obj.getStatus().equals(2)) {
+			chamado.setDataFechamento(LocalDate.now());
+		}
+		
 		chamado.setTecnico(tecnico);
 		chamado.setCliente(cliene);
 		chamado.setPrioridade(Prioridade.toEnum(obj.getPrioridade()));
@@ -59,6 +71,7 @@ public class ChamadoService {
 		chamado.setObservacoes(obj.getObservacoes());
 		return chamado;
 	}
+
 	
 	
 	
