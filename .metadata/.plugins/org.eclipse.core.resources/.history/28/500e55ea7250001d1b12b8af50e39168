@@ -1,0 +1,5 @@
+spring.profiles.active=dev
+
+Jwt.secret=StringUsadaParaGerarToken
+
+Jwt.expiration=180000

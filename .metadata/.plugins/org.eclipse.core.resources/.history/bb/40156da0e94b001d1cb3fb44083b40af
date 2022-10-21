@@ -1,0 +1,5 @@
+package br.com.bennytech.helpdesk.services;
+
+public class DBService {
+
+}
