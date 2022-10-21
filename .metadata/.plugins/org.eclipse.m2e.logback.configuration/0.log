@@ -1741,3 +1741,18 @@
 2022-10-21 10:36:02,559 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2022-10-21 10:36:02,565 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-10-21 10:36:02,565 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\projetoFullStak1\helpdesk-backend\src\test\resources
+2022-10-21 14:05:58,493 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-21 14:05:58,499 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\projetoFullStak1\helpdesk-backend\src\main\resources
+2022-10-21 14:05:58,500 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\projetoFullStak1\helpdesk-backend\src\main\resources
+2022-10-21 14:05:58,520 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-21 14:05:58,520 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\projetoFullStak1\helpdesk-backend\src\test\resources
+2022-10-21 14:05:59,677 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-21 14:05:59,679 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\projetoFullStak1\helpdesk-backend\src\main\resources
+2022-10-21 14:05:59,679 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\projetoFullStak1\helpdesk-backend\src\main\resources
+2022-10-21 14:05:59,682 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-21 14:05:59,683 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\projetoFullStak1\helpdesk-backend\src\test\resources
+2022-10-21 14:06:01,402 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-21 14:06:01,403 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\projetoFullStak1\helpdesk-backend\src\main\resources
+2022-10-21 14:06:01,403 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\projetoFullStak1\helpdesk-backend\src\main\resources
+2022-10-21 14:06:01,415 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-21 14:06:01,415 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\projetoFullStak1\helpdesk-backend\src\test\resources
