@@ -1,5 +1,0 @@
-package br.com.bennytech.helpdesk.security;
-
-public class JWTAuthenticationFilter {
-
-}

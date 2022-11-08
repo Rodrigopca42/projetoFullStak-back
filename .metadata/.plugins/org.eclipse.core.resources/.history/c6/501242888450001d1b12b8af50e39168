@@ -1,5 +1,0 @@
-spring.profiles.active=teste
-
-jwt.secret=StringUsadaParaGerarToken
-
-jwt.expiration=180000
